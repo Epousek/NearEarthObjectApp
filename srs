@@ -21,6 +21,10 @@ Běžný uživatel má lehký zájem o astronomii, a pravděpoboně se nudí neb
 
 Aplikace nebude vypisovat všechny dostupné objekty, ale jen malou část z nich vzhledem k tomu, že jich existuje opravdu hodně.
 
+## Předpoklady a závislosti
+
+Aplikace bude závislá na API Nasy, ze které bude čerpat veškerá data. Dále bude závislá na knihovně Newtonsoft.
+
 ## Vlastnosti
 
 ### Vyhledávání
