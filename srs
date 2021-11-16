@@ -4,7 +4,8 @@
 Jan Bezouška, janbezouska@outlook.com
 
 ## Konvence
- - 1 = nejvyšší dlůležitost
+ - 1 = nejvyšší důležitost
+ - 3 = nejnižší důležitost
 
 ## Produkt jako celek
 
@@ -15,7 +16,8 @@ Každý asteroid bude mít několik základních informací, podle kterých bude
 
 ## Uživatelské skupiny
 
-Běžný uživatel má lehký zájem o astronomii, a pravděpoboně se nudí nebo nemá co dělat. Stráví tak část jeho volného času brouzdáním blízkých astronomických těles.
+Běžný uživatel má lehký zájem o astronomii, a pravděpoboně se nudí nebo nemá co dělat.  
+Stráví tak část jeho volného času brouzdáním blízkých astronomických těles.
 
 ## Vymezení rozsahu
 
