@@ -58,4 +58,9 @@ Aplikace bude závislá na API Nasy, ze které bude čerpat veškerá data. Dál
 
  ## Výkonnost
 
- Rychlost bude záviset na rychlosti internetového připojení a mobilního zařízení uživatele. Obecně bude vyhledávání trvat max. 2 vteřiny, a zobrazení detailů 3 vteřiny, většinou bude ale aplikace rychlejší.
+ Rychlost bude záviset na rychlosti internetového připojení a mobilního zařízení uživatele.  
+ Obecně bude vyhledávání trvat max. 2 vteřiny, a zobrazení detailů 3 vteřiny, většinou bude ale aplikace rychlejší.
+
+## Spolehlivost
+
+Aplikace bude velice spolehlivá.
