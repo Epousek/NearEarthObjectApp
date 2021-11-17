@@ -12,8 +12,6 @@ Jan Bezouška, janbezouska@outlook.com
 Aplikace bude poskytovat seznam asteroidů, ve kterých bude moci uživatel hledat podle různých parametrů.  
 Každý asteroid bude mít několik základních informací, podle kterých bude vyhledatelný, a několik detailnějších informací, které se objeví po rozkliknutí, pokud má uživatel přístup k internetu.
 
-## Uživatelské prostředí
-
 ## Uživatelské skupiny
 
 Běžný uživatel má lehký zájem o astronomii, a pravděpoboně se nudí nebo nemá co dělat.  
