@@ -1,6 +1,6 @@
 # Software Requirements Specification
 
-16.11., Verze 1
+17.11., Verze 2
 Jan Bezouška, janbezouska@outlook.com
 
 ## Konvence
@@ -34,19 +34,26 @@ Aplikace bude závislá na API Nasy, ze které bude čerpat veškerá data. Dál
  - Vstupy:
     - atribut podle kterého vyhledávat, např. vzdálenost od země, velikost atd.
     - rozptyl ve kterém vyhledávat (např. od velikosti x do velikosti y)
+ - Výstup:
+    - seznam objektů, které splňují vstupní požadavky
  - Možnost vyhledat konkrétní číslo s tím, že výsledkem bude nejbližší objekt
 
 ### Řazení
 
  - Důležitost = 2
- - Možnost seřadit seznam podle různých atributů, např. doby, kdy proletí kolem země
+ - Vstup:
+    - atribut, např. doba, kdy proletí kolem země
+ - Výstup:
+    - seznam seřazený podle atributu
 
 ### Zobrazení podrobností
 
  - Důležitost = 3
- - Uživatel může rozkliknout jakýkoliv objekt
- - Po rozkliknutí se zobrazí podrobnější informace o daném objektu
- - Pro zobrazení více informací bude potřeba připojení k internetu
+ - Vstup:
+    - rozkliknutí jakéhokoliv objektu
+ - Výstup:
+    - zobrazení podrobnějších informací o daném objektu
+    - počet informací záleží na tom, zda je mobilní zařízení připojené na internet
 
  ## Hardwarová rozhraní
 
@@ -63,4 +70,4 @@ Aplikace bude závislá na API Nasy, ze které bude čerpat veškerá data. Dál
 
 ## Spolehlivost
 
-Aplikace bude velice spolehlivá.
+Může nastat situace, ve které nebudou načtená data, nebo se nenačtou všechna, pokud mobilní zařízení příjde o připojení k internetu.
