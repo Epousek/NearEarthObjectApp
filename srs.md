@@ -1,6 +1,6 @@
 # Software Requirements Specification
 
-17.11., Verze 2
+17.11., Verze 2  
 Jan Bezouška, janbezouska@outlook.com
 
 ## Konvence
