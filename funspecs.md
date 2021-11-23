@@ -21,3 +21,4 @@ Jan Bezouška, janbezouska@outlook.com
    - program vyhledá nové objekty z API
 
 ## Uživatelské rozhraní
+![ui](https://user-images.githubusercontent.com/76868390/143014434-9cdf866e-3aa9-4260-a1dd-593c26d8f1ec.jpg)
