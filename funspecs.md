@@ -1,10 +1,14 @@
 # Functional specifications
 
-23.11.2021, verze 1
+23.11.2021, verze 2  
 Jan Bezouška, janbezouska@outlook.com
 
 ## Scénáře
-
+ - Získání objektů
+   - jakmile uživatel zapne aplikaci a má přístup k internetu, načtou se nové náhodné objekty z API
+   - pokud zapne aplikaci, a přístup k internetu nemá:
+     - pokud nikdy předtím nebyly objekty načteny, zobrazí se mu informace o tom, že potřebuje přístup k internetu
+     - pokud už předtím objekty načteny byly, načtou se ty
  - Hlavní stránka
    - uživatel se bude pohybovat pouze na hlavní stránce
    - uživatel bude vyhledávat pomocí atributů
