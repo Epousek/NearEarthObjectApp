@@ -11,5 +11,12 @@ namespace NEOApp.Views
     {
       InitializeComponent();
     }
+
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
+      Exception? exception = await GetNEOs.GetNEOsAsync();
+      if (exception != null)
+        await DisplayAlert("Couldn't get objects.", exception.Message, "xd");
+    }
   }
 }
