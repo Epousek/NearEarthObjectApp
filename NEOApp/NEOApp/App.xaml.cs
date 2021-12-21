@@ -12,11 +12,8 @@ namespace NEOApp
     public App()
     {
       Preferences.Set("api_key", "cU20o4olVJ0EfymDmYrkCMxn8TqjDVBAUL0ugsrD");
-      ConnectivityTest.Init();
-
       InitializeComponent();
 
-      DependencyService.Register<MockDataStore>();
       MainPage = new AppShell();
     }
 
